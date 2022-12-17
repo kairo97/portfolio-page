@@ -1,0 +1,42 @@
+#title{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -40px;
+    border: darkgray 1px;
+    padding: 50px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/22/19/13/audio-855980_1280.jpg);
+    justify-content: center;
+}
+#kai{
+    background-color:lightgreen;
+    border: 8px;
+    margin: 24px;
+    position: absolute;
+    left:5px;
+    top: 20px;
+}
+
+#welcome{
+    background-color:lightgreen;
+    margin:auto;
+    padding: 5px;
+
+}
+#navbar{
+    background-color: darkslategray;
+    position: absolute;
+    bottom:0px;
+}
+#about-me{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border: solid black 2px;
+    
+
+
+}
+#abtme{
+
+
+}
