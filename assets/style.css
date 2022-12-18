@@ -1,42 +1,295 @@
+*{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 #title{
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/22/19/13/audio-855980_1280.jpg);
+    margin: -10px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     flex-wrap: wrap;
-    margin: -40px;
-    border: darkgray 1px;
-    padding: 50px;
-    background-image: url(https://cdn.pixabay.com/photo/2015/07/22/19/13/audio-855980_1280.jpg);
-    justify-content: center;
+    justify-content: space-between;
+    box-shadow: 2px black;
 }
 #kai{
-    background-color:lightgreen;
-    border: 8px;
-    margin: 24px;
-    position: absolute;
-    left:5px;
-    top: 20px;
-}
-
-#welcome{
-    background-color:lightgreen;
-    margin:auto;
+    background-color: blue;
     padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top:50px;
 
+
+}
+#welcome{
+    background-color: blue;
+    padding:5px;
+    padding-bottom: 0px;
 }
 #navbar{
-    background-color: darkslategray;
-    position: absolute;
-    bottom:0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: aquamarine;
+    z-index: 1;
+    
+
+}
+#navbar a{
+    background-color: aquamarine;
 }
 #about-me{
     display: flex;
-    flex-direction: column;
-    padding: 12px;
-    border: solid black 2px;
-    
-
-
+    flex-direction: row;
+    padding: 0px;
+    padding-top: 0px;
+    margin: 0px;
 }
 #abtme{
+    position: relative;
+    margin: 15px;
+    padding:5px;
+    border-right:solid black 2px;
+    max-height: fit-content;
+    align-self: center;
 
+}
+#my-life{
+    padding: 15px;
+    text-indent: 25px;
+}
+#pics div{
+    display: flex;
+    flex-direction: row;
+}
+#worklabel{
+    position: absolute;
+    margin:15px;
+    padding:5px;
+    border-right: solid black 2px;
+    max-height: fit-content;
+    max-width: fit-content;
+    align-self: center;
+}
+#surfpic{
+    flex-grow: 1;
+    position: relative;
+    min-height: 400px;
+    min-width: fit-content;
+    resize: both;
+    overflow: auto;
+    margin: 25px;
+    margin-left: 90px;
+    border: solid 2px forestgreen;
+}
+#ocean{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+#surf{
+    background-color: crimson;
+    border: solid crimson 2px;
+    height: fit-content;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+    align-self: flex-end;
+    z-index: 2;
+}
+#mern1{
+    background-color: crimson;
+    height: fit-content;
+    justify-self: flex-start;
+    align-self: flex-end;
+    z-index: 3;
+    margin: 0px;
+    padding-top: 27px;
+}
+.images2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 200px;
+    max-height: fit-content;
+    margin:25px;
+    margin-left: 85px;
+    margin-top: 40px;
+    padding:0px;
+}
+#led-image{
+    display: flex;
+    flex-wrap: nowrap;
+    border: solid forestgreen 2px;
+    max-width: fit-content;
+    min-height: 200px;
 
+}
+.images2 #led-wall #led-image{
+    position: relative;
+    height: 200px;
+    justify-self: flex-start;
+    margin-left: 0px;
+    padding:0px;
+    object-fit: cover;
+    height: 100%;
+    width:50%;
+}
+#led{
+    position: absolute;
+    align-self:flex-end;
+    justify-self: flex-start;
+    background-color: crimson;
+    padding:5px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+ #node{
+    background-color: crimson;
+    align-self: flex-end;
+    justify-self: flex-start;
+    position:absolute;
+    left:80px;
+    margin-bottom: 0px;
+    padding-top:18px;
+ }
+ .images2 #calc-image{
+    border: solid forestgreen 2px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-self: flex-end;
+    right:0px;
+    min-height: 200px;
+ }
+.images2 #calculator{
+    right:0px;
+    height: 200px;
+    width: 100%;
+    max-width: fit-content;
+    justify-self: flex-end;
+    margin-right: 0px;
+    padding:0px;
+}
+#calc{
+    background-color: crimson;
+    align-self: flex-end;
+    justify-self: flex-start;
+    position: absolute;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin: 0px;
+
+}
+#java{
+    background-color: crimson;
+    align-self: flex-end;
+    justify-self: flex-start;
+    position: absolute;
+    margin: 0px;
+    right:113px;
+    padding-top: 18px;
+}
+.images3{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    min-height: 200px;
+    max-height: fit-content;
+    margin: 25px;
+    margin-left: 85px;
+    margin-top:40px;
+}
+.images3 #pstl-img{
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 200px;
+    justify-self: flex-start;
+
+}
+.images3 #pastel{
+    height: 200px;
+    width: 100%;
+    max-width: fit-content;
+    justify-self: flex-start;
+    border: solid forestgreen 2px;
+    margin: 0px;
+    padding:0px;
+}
+#pp{
+    background-color: crimson;
+    align-self: flex-end;
+    justify-self: flex-start;
+    position: absolute;
+    margin: 0px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+#mern2{
+    background-color: crimson;
+    align-self: flex-end;
+    justify-self: flex-start;
+    position: absolute;
+    margin:0px;
+    left:130px;
+    padding-top: 19px;
+
+}
+.images3 #rnbdy{
+    display: flex;
+    right:0px;
+    height: 200px;
+    width: 100%;
+    max-width: fit-content;
+    justify-self: flex-end;
+    margin: 0px;
+    padding: 0px;
+}
+#run{
+    border: solid forestgreen 2px;
+}
+#rb{
+    background-color: crimson;
+    align-self: flex-end;
+    justify-self: flex-start;
+    position: absolute;
+    margin: 0px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+#html{
+    background-color: crimson;
+    align-self: flex-end;
+    justify-self: flex-start;
+    position: absolute;
+    margin: 0px;
+    right:90px;
+    padding-top:19px;
+}
+#contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aquamarine;
+    border: solid black 2px;
+
+}
+#contact li {
+    background-color: aquamarine;
+    max-width: fit-content;
+    
 }
